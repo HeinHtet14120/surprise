@@ -33,7 +33,9 @@ export function Hero({ data }: HeroProps) {
           src={data.heroImage}
           alt={data.title}
           fill
-          className="object-cover opacity-20"
+          sizes="100vw"
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
+          className="opacity-20"
           priority
         />
       </div>

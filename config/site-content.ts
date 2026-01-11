@@ -76,9 +76,9 @@ export const siteContent = {
     hero: {
       title: "Five Years With You ❄️💕",
       subtitle: "A love that distance could never break",
-      heroImage: "/images/hero.svg",
+      heroImage: "https://i.ibb.co/ycqPXhQq/IMG-8916.jpg",
       content: `<p>You have been my constant, my comfort, my home—no matter the miles. This is my love letter to you, written through five unforgettable years.</p>
-    <p>You’ve never been far from my heart. You are my everything.</p>
+    <p>You've never been far from my heart. You are my everything.</p>
     <blockquote>
     <p>"Distance fades when love is this deep."</p>
     <p>You are my forever. ❤️❄️</p>
@@ -94,7 +94,7 @@ export const siteContent = {
           yearNumber: 1,
           title: "The Beginning",
           dateRange: "2020 - 2021",
-          coverImage: "/images/year-1.svg",
+          coverImage: "https://i.ibb.co/LTddgKf/year1.jpg",
           content: `<p>Our first year was magical. From awkward first dates to late-night conversations that lasted until sunrise, we discovered each other piece by piece.</p>
 <p><strong>Unforgettable Moments:</strong></p>
 <ul>
@@ -109,7 +109,7 @@ export const siteContent = {
           yearNumber: 2,
           title: "Growing Together",
           dateRange: "2021 - 2022",
-          coverImage: "/images/year-2.svg",
+          coverImage: "https://i.ibb.co/84mGmYCv/year2.jpg",
           content: `<p>Year two brought us closer than ever. We learned that love isn't just about the grand gestures—it's in the quiet moments, the shared silences, and the comfort of being truly known.</p>
 <p><strong>Cherished Memories:</strong></p>
 <ul>
@@ -124,7 +124,7 @@ export const siteContent = {
           yearNumber: 3,
           title: "Finding Our Rhythm",
           dateRange: "2022 - 2023",
-          coverImage: "/images/year-3.svg",
+          coverImage: "https://i.ibb.co/nqch9dFd/year3.jpg",
           content: `<p>By year three, we had found our rhythm. We knew each other's quirks, finished each other's sentences, and loved each other even more deeply than before.</p>
 <p><strong>Beautiful Highlights:</strong></p>
 <ul>
@@ -139,7 +139,7 @@ export const siteContent = {
           yearNumber: 4,
           title: "Deeper Roots",
           dateRange: "2023 - 2024",
-          coverImage: "/images/year-4.svg",
+          coverImage: "https://i.ibb.co/7tm9d47N/year4.jpg",
           content: `<p>Year four was about putting down deeper roots. Our love matured into something steady and unshakeable, a foundation we can build our dreams upon.</p>
 <p><strong>Meaningful Moments:</strong></p>
 <ul>
@@ -154,7 +154,7 @@ export const siteContent = {
           yearNumber: 5,
           title: "Forever Begins",
           dateRange: "2024 - 2025",
-          coverImage: "/images/year-5.svg",
+          coverImage: "https://i.ibb.co/ZzJ54LBP/year5.jpg",
           content: `<p>Five years together, and I love you more today than I did yesterday. This year represents not just where we've been, but all the beautiful tomorrows stretching out before us.</p>
 <p><strong>This Year's Magic:</strong></p>
 <ul>
@@ -193,45 +193,44 @@ export const siteContent = {
       footer: "Each photo tells a story. Each story is about us.",
       images: [
         {
-          path: "/images/gallery/first-date.svg",
+          path: "https://i.ibb.co/zHRPcV51/IMG-2607.jpg",
           caption: "Our very first photo together—nervous smiles and all",
         },
         {
-          path: "/images/gallery/adventure-1.svg",
-          caption: "That epic hiking trip where we conquered the mountain",
+          path: "https://i.ibb.co/1fvPM9Sn/IMG-7917.avif",
+          caption: "The best in town S&A.",
         },
         {
-          path: "/images/gallery/cozy-night.svg",
-          caption: "Movie night at home, my favorite place to be",
-        },
-        {
-          path: "/images/gallery/celebration.svg",
-          caption: "Celebrating your big achievement—so proud of you!",
-        },
-        {
-          path: "/images/gallery/travel-1.svg",
+          path: "https://i.ibb.co/Z11JPztp/IMG-6487.jpg",
           caption: "Exploring new cities and making memories",
         },
         {
-          path: "/images/gallery/candid-laugh.svg",
-          caption: "When I caught you mid-laugh—pure joy",
-        },
-        {
-          path: "/images/gallery/sunset.svg",
+          path: "https://i.ibb.co/zWfd8WDK/IMG-8093.jpg",
           caption: "Watching the sunset together, hand in hand",
         },
         {
-          path: "/images/gallery/silly-moment.svg",
+          path: "https://i.ibb.co/7JpcX4CK/IMG-0140.jpg",
+          caption: "That epic hiking trip where we conquered the mountain",
+        },
+        {
+          path: "https://i.ibb.co/qFN0dyhD/IMG-0166.jpg",
+          caption: "The everyday moments that mean everything",
+        },
+        {
+          path: "https://i.ibb.co/B0qPKh9/IMG-7484.jpg",
+          caption: "When I caught you mid-laugh—pure joy",
+        },
+
+
+        {
+          path: "https://i.ibb.co/ycqPXhQq/IMG-8916.jpg",
           caption: "Being absolutely ridiculous together (as usual)",
         },
         {
-          path: "/images/gallery/anniversary.svg",
+          path: "https://i.ibb.co/GvGRDD5m/IMG-9208.jpg",
           caption: "Celebrating us—year after year",
         },
-        {
-          path: "/images/gallery/everyday-love.svg",
-          caption: "The everyday moments that mean everything",
-        },
+
       ],
     },
 

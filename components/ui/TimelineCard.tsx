@@ -33,7 +33,8 @@ export function TimelineCard({ data, index }: TimelineCardProps) {
           src={data.coverImage}
           alt={data.title}
           fill
-          className="object-cover"
+          sizes="(max-width: 768px) 100vw, 50vw"
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
         />
       </div>
 
