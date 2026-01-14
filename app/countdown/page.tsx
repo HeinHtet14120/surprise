@@ -18,11 +18,12 @@ export default function CountdownPage() {
   const [error, setError] = useState('');
   const [showPasswordInput, setShowPasswordInput] = useState(false);
 
-  // Target date from config
-  const targetDate = new Date(dates.anniversaryCountdown);
+  // Target date from config (in MMT - Myanmar Time, UTC+6:30)
+  const targetDate = new Date(dates.anniversaryCountdown + '+06:30');
 
   useEffect(() => {
     const calculateTimeLeft = () => {
+      // Compare directly - both dates use UTC internally
       const now = new Date();
       const difference = targetDate.getTime() - now.getTime();
 

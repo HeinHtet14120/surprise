@@ -16,11 +16,12 @@ export function InfinityCounter() {
     seconds: number;
   } | null>(null);
 
-  // Start date from config
-  const startDate = new Date(siteContent.dates.relationshipStart);
+  // Start date from config (in MMT - Myanmar Time, UTC+6:30)
+  const startDate = new Date(siteContent.dates.relationshipStart + '+06:30');
 
   useEffect(() => {
     const calculateTimeElapsed = () => {
+      // Compare directly - both dates use UTC internally
       const now = new Date();
       const difference = now.getTime() - startDate.getTime();
 
